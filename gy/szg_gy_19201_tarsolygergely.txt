@@ -1,0 +1,157 @@
+190912
+SZG GY01
+
+gergely.tarsoly3@gmail.com
+zh max ~140p
+5 +/-, 6. javító/pótló év végén
+2 kisbead (1. 6. hét)
+pluszpont órai
+nagybead (max 120-240p)
+
+hf: (kövi óráig mailben)
+- billentyűnyomásra rajzoljon
+- újbóli nyomásra nem
+- másik billentyűnyomásra változik a négyzet mérete
+
+********************************************************************************
+
+190919
+SZG GY02
+
+1mp periódus: SDL_GetTicks() / 1000.0 * 2 * M_PI
+open gl shading language (plugin)
+
+gl_Position = positions[gl_VertexID] + vec4(0.5, 0, 0, 0); // féllel alrébb tolja x-en
+gl_Position.x /= 2; // felez
+
+// vektorok konstruálása
+vec3 a = vs_out_col.xyz; // 4. w, xxz
+vec4 b = vec4(a, 3);
+vec4 b = vec4(2, a, 3); // vec2 a
+
+jövő órán +/-:
+- double buffering, vsync, periódusszámolás
+- (kirajzolás nem kell, rajzolási mód nem kell)
+
+
+********************************************************************************
+
+190926 <3
+SZG GY03
+
++/-:
+- v-snyc
+- f(t) eleme [-5,7]    T=3s    (pl. f: 2t+3)
+sin(t*2pi/3) - 3mp periódusidejű szinusz -1 és 1 közötti értékekkel
+x=(sin(t*2pi/3)+1)/2 eleme [0,1]
+12x-5
+
+    vec2 p = vs_out_pos.xy;
+
+    fs_out_col = vec4(0, 0, 0, 1);
+
+    if (p.x * p.x + p.y * p.y < 1) // kör
+    if (length(p) < 1) // kör
+    if (length(p) == 1) // körvonal - nem látszik
+    if (abs(length(p) - (0.75 * 0.75)) < 0.5) // kurva vastag körvonal
+    {
+        fs_out_col = vec4(vs_out_col, 1);
+    }
+
+szorgalmi:
+???
+
+********************************************************************************
+
+191003
+SZG GY04
+
+raszterizáció, interpoláció
+világtranszformáció, koordinátarendszer(?)
+
+szorgalmi:
+homokórák tengelyük függőleges körül, körben forognak
+
+********************************************************************************
+
+191010
+SZG GY05
+
+tórusz, henger
+
+********************************************************************************
+
+191017
+SZG GY06
+
+textures
+
+jövő órán +/- textúrázásból
+
+********************************************************************************
+
+191024
+SZG GY07
+
++/-:
+- bilineáris vs trilineáris
+- vmi bs
+
+********************************************************************************
+
+191107 // 191031 szünet
+SZG GY08
+
+// absent
+
+********************************************************************************
+
+191114
+SZG GY09
+
++/-:
+phong?
+fényforrások?
+
+********************************************************************************
+
+191121
+SZG GY10
+
+jövő héten +/-
+
+********************************************************************************
+
+191128
+SZG GY11
+
++/-: OGL_Base
+Phong
+pontfény
+...whatever
+
+********************************************************************************
+
+191205
+SZG GY12
+
+zh minta: fakitermelés
+
+vao:
+1. headerekben
+    - array objectek
+    - vao
+    - (ind buffer)
+2. init
+    - array oj-ek feltöltése
+    - vao init
+3. render
+    - bind
+    - draw
+
+********************************************************************************
+
+191212
+SZG GY13
+
+zh minta?

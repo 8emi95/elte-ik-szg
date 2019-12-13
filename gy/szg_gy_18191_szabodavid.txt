@@ -1,0 +1,100 @@
+180912
+01. SzámGraf GY
+
+Szabó Dávid
+sasasoft@inf.elte.hu
+
+cg.elte.hu
+cg.elte.hu/~bsc_cg
+cg.elte.hu/~sasasoft
+
+subst t: c:/
+
+project right click -> properties -> windows sdk, platform toolset
+project -> rescan solution
+
+01_HelloSDL
+
+*******************************************************************************************
+
+180919
+02. SzámGraf GY
+
+02_SDLEvents
+02_SDLOGL_FW
+
+jövő héten +/-
+sdl akármi
+
+*******************************************************************************************
+
+180926 <3
+03. SzámGraf GY
+
++/-:
+1. sdl_renderer feladata, létrehozásának lépései
+rizsa, ablakokról meg mittudomén
+2. float timer = sdl_getticks(); // -1 3 között ciklizáljon, tetszőleges lassítás
+t=sin(sdlgt / 100)
+[-1,1] * 2
+[-2,2] + 1
+-> [-1,3]
+
+normalizált eszközkoordinátarendszer (origó középen, x y tg [1-;1])
+
+*******************************************************************************************
+
+181003
+04. SzámGraf GY
+
++/- jövő héten
+
+*******************************************************************************************
+
+181010
+05. SzámGraf GY
+
++/-:
+1. gpu szerelőszalag
+2. vao
+3. triangle_strip
+
+*******************************************************************************************
+
+181017
+06. SzámGraf GY
+
+// absent
+
+*******************************************************************************************
+
+181024
+07. SzámGraf GY
+
++/-:
+1. in out uniform változók jelentése shaderben, c++ programból hogyan érhető el egy shaderváltozó
+in: storage qualifier-rel ellátott változó, ...
+out: ..., vertex shaderből fragment shaderbe ad át, ...
+uniform: ...
+2. elemi transzformációs mátrixok szorzataként világtranszformáció: (2, 0, 2) pont körül XZ síkon fekvő 4 sugarú körvonalon forog objektum, teljes kört 5 mp alatt tesz meg
+
+*******************************************************************************************
+
+181107
+08. SzámGraf GY
+
+bead1:
+hátlapeldobás mellett helyesen jelenjen meg (nem lukasak az obejktumok)
+https://people.inf.elte.hu/nhantos/
+
+fényforrástípusok:
+irány: távoli, erős (nap), csak az irány érdekes
+pontszerű: pozícó, minden irányba
+spot: pozíció + irány, nyílásszög
+
+anyagtulajdonságok: phong fénymodell https://en.wikipedia.org/wiki/Phong_reflection_model
+ambiens: mindenhol látni
+diffúz: rücskös felület (mikroszkópikus szinten, fa), visszapattanás irányát nem tudjuk követni, milyen irányból érkezett
+spekuláris: kamera pozíció + visszapattanó és kamerába mutató vektor által bezárt szög
+
+https://en.wikipedia.org/wiki/Gouraud_shading
