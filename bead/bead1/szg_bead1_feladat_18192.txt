@@ -1,0 +1,7 @@
+Készíts egy alkalmazást amiben létrehozol 5 egységkockából felépített Tetris T formát ( http://cg.elte.hu/~bsc_cg/gyak/kisbead1/image001.jpg ) (2 pont)
+
+A fent elkészített geometriát rajzold ki a következõ formációban: az origó középpontú, 3 sugarú gömb 6 véletlen pontjában (2 pont)
+
+Az így kirajzolt formációt mozgasd a következõ pályán: egy XY síkban fekvő y = 0.05*x^2 parabola -10<=x<=10 közötti részén a -10 és 10 közötti végpontok között oda-vissza mozogva, egy ilyen utat 10 másodperc alatt megtéve (2 pont)
+
+A felhasználó a következõképpen állíthassa a színtérbeli történéseket:a szóköz billentyű hatására a formációban résztvevő alakzatok tartsák az egymáshoz való relatív pozíciójukat, de méretűk periodikusan változzon, az eredeti fele és kétszerese között, 5 másodperces periódussal. (2 pont)

@@ -1,0 +1,9 @@
+========Első kisbeadandó feladat========
+
+Készíts egy alkalmazást amiben létrehozol egy YZ síkon álló, 1 sugarú kör alapú, 2 egység magas kúpot. A létrehozott geometria minden háromszögének legyen különbözõ színe! (2 pont)
+
+A fent elkészített geometriát rajzold ki a következõ formációban: egy XY síkbeli origó középpontú, 5 egység sugarú körív mentén egyenletesen elhelyezett 5 pontban (2 pont)
+
+Az így kirajzolt formációt mozgasd a következõ pályán: egy origó középpontú, 8 sugarú gömb felületén (ne síkbeli legyen a pálya!) (2 pont)
+
+A felhasználó a következõképpen állíthassa a színtérbeli történéseket: a szóköz billentyű hatására a formációban résztvevő alakzatok tartsák az egymáshoz való relatív pozíciójukat, de méretűk Y tengely mentén periodikusan változzon, az eredeti fele és kétszerese között, 8 másodperces periódussal. (2 pont)
