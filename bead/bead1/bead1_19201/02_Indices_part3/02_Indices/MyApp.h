@@ -12,6 +12,9 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtx/transform2.hpp>
 
+
+#include <vector>
+
 class CMyApp
 {
 public:
@@ -53,5 +56,12 @@ protected:
 		glm::vec3 p;
 		glm::vec3 c;
 	};
+
+	int space_pressed = 0;
+	glm::vec3 rotate_var;
+
+	std::vector<int> possible_points;
+	glm::vec3 get_random_point();
+	glm::vec3 generated_points[9];
 };
 
