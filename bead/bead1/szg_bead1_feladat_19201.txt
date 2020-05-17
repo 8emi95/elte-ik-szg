@@ -1,0 +1,18 @@
+Készíts egy alkalmazást, amiben létrehozol 5 egységkockából felépített
+T formát ( http://cg.elte.hu/~bsc_cg/gyak/kisbead1/image001.jpg ) (2 pont)
+
+A fent elkészített geometriát rajzold ki a következő formációban:
+az y=f(x,z)=(x/2)^3 – x*z/4 + (z/2)^2 felület –4<=x,z<=4 feletti részének
+azon 9 pontjában, ahol x és z osztható 4-gyel
+(tehát pl. a (–4, f(–4,4), 4) pontban) (2 pont)
+
+Az így kirajzolt formációt mozgasd a következő pályán:
+egy XY síkban fekvő y = 0.02*x^2 parabola –10<=x<=5 közötti részén
+a –10 és 5 közötti végpontok között oda-vissza mozogva,
+egy ilyen utat 12 másodperc alatt megtéve (2 pont)
+
+A felhasználó a következőképpen állíthassa a színtérbeli történéseket:
+a szóköz billentyű lenyomására kezdjenek el forogni a
+formációban résztvevő geometriák a saját X tengelyük körül
+(tehát ne az egész alakzat, hanem külön-külön a geometriák).
+Újabb szóköz billentyű esetén álljon meg ez a forgás. (2 pont)
