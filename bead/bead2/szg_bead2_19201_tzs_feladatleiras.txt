@@ -1,0 +1,13 @@
+Akvárium (2 pont)
+
+Készítsünk egy akváriumot! Az akvárium lényegében egy négyzet alapú hasáb, oldalai és alja áttetszőek, és a bent lévő víz hatása miatt enyhén kék színűek. Az akvárium teteje egy fodrozódó vízfelület, ehhez vegyünk fel egy négyzetlapból álló síkot, majd vertex shader-ben függőlegesen mozgassuk a pontokat úgy, hogy a felület az idő múlásával folyamatosan hullámozzon. A hullámzáshoz legalább két, különböző periódusidejű függvényt használjunk (pl.: sin, cos). Az akváriumban jelenjen meg legalább egy hal és egy vízi növény obj fájlból betöltve. Hal és növény obj fájlok: https://free3d.com/3d-models/obj-fish
+
+
+Űrhajó kamera 2 (2 pont)
+
+Képzeljük el a kamerát egy űrhajónak. WASD-vel gyorsítani lehet a kameramozgást a megfelelő irányba, minnél többet nyomjuk, annál jobban felgyorsul. A gomb elengedésekor nem áll meg, hanem abban az irányban halad tovább. Ehhez tároljuk el a kamera sebességvektorát, és ezen változtassunk az interakciónál. A pozíciót az Update()-ben frissítjük eme sebességvektor szerint. A SPACE billentyű megnyomására azonnal álljon meg a kamera. A Q és E billentyűk segítségével lehessen forgatni a kamerán "roll" irányban, azaz az előre mutató vektor körül.
+
+
+Napszakváltakozás (2 pont)
+
+Hozzunk létre napszakváltakozást fényhatás segítségével! Vegyünk fel egy irány fényforrást (nap) és mozgassuk egy kör alakú pályán az origó körül (az x,y, tengelyt módosítjuk csak). Ha lemegy a nap (y>0), onnantól este van, a nap fénye nem érvényesül, és mindent egy egységes, de gyenge másodlagos fényforrás világít meg (hold -1,-1,-1 irány fényforrás). A feladat megvalósítása a fragment shaderben történik, vertex shaderben egy idő uniform változó felvétele ajánlott. Ha az OBJ fájlodnak nincsenek normálisai, készíts köré egy három sík lapból álló, elöl-hátul-alul nyitott pajtát (normálisokkal rendelkező négyzetlapok), hogy megvédje az obj-t a napfénytől. Ha van eleve normálissal rendelkező alakzatod, ezt kihagyhatod.
