@@ -1,0 +1,7 @@
+Készíts egy alkalmazást, amiben létrehozol origóközéppontú, egységnyi élhosszúságú oktaédert (http://hu.wikipedia.org/wiki/Okta%C3%A9der) (2 pont)
+
+A fent elkészített geometriát rajzold ki a következő formációban: az origó középpontú, 10 sugarú gömb 7 véletlen belső pontjában (2 pont)
+
+Az így kirajzolt formációt mozgasd a következő pályán: egy origó középpontú, 8 sugarú gömb felületén (ne síkbeli legyen a pálya!) (2 pont)
+
+A felhasználó a következőképpen állíthassa a színtérbeli történéseket: az 1, 2, 3 számbillentyűk hatásával a kirajzolt alakzatok színét módosítsd rendre a tiszta piros, zöld, kék színekkel, a saját színükből periodikusan átmosódva az előbbiekbe, majd vissza (tehát ha sárga volt, akkor 1-es billentyű esetén sárgából pirosba, majd vissza sárgába), 5 másodperces periódussal. (2 pont)
