@@ -1,0 +1,7 @@
+Készíts egy alkalmazást, amiben létrehozol egy origó középpontú, egységnyi élhosszúságú oktaédert ( http://hu.wikipedia.org/wiki/Okta%C3%A9der ) (2 pont)
+
+A fent elkészített geometriát rajzold ki a következő formációban: az y=f(x,z)=(x/2)^2 + (z/2)^2 felület –4<=x,z<=4 feletti részének azon 9 pontjában, ahol x és z osztható 4-gyel (tehát pl. a (–4, f(–4,4), 4) pontban) (2 pont)
+
+Az így kirajzolt formációt mozgasd a következő pályán: egy XZ síkban fekvő z = 0.05*x^2 parabola –10<=x<=10 közötti részén a –10 és 10 közötti végpontok között oda-vissza mozogva, egy ilyen utat 10 másodperc alatt megtéve (2 pont)
+
+A felhasználó a következőképpen állíthassa a színtérbeli történéseket: az 1, 2, 3 számbillentyűk lenyomására a kirajzolt alakzatok színét módosítsd rendre a tiszta piros, zöld, kék színekkel, a saját színükből periodikusan átmosódva az előbbiekbe, majd vissza (tehát ha sárga volt, akkor 1-es billentyű esetén sárgából pirosba, majd vissza sárgába), 4 másodperces periódussal. (2 pont)
