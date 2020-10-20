@@ -1,0 +1,2 @@
+﻿  MyApp.cpp
+D:\Laptop\IK\19201\szg\zh\szg_zh_200525_taylor\ZH200525a\ZH-NEPTUN\ZHBase200525a\MyApp.cpp : fatal error C1041: cannot open program database 'D:\Laptop\IK\19201\szg\zh\szg_zh_200525_taylor\ZH200525a\ZH-NEPTUN\ZHBase200525a\x64\Debug\vc142.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
