@@ -1,0 +1,55 @@
+7. Távoli bolygó (135%)
+Készítsünk (és jelenítsünk meg) egy viszonylag nagy gömböt (ez lesz a bolygó) (2%) és textúrázzuk is fel (3%).
+
+Helyezzünk el kisebb-nagyobb (1 féle elég) sziklákat a bolygó felszínén. Orientációjuk, méretük a különböző tengelyek szerint legyen véletlenszerű (értelmes határok között), földbe mélyedésüknek mértéke legyen változatos. Alkalmazzunk szikla textúrát, amit keverünk szolid színekkel is (hogy még változatosabbak legyenek). (10%)
+
+Lehessen a WASD és az egér segítségével mozogni a színtérben! (5%)
+
+Helyezzünk el a talajon Lindenmayer rendszerrel generált 3D növényeket (egy félét). A növény ágai lehetnek elnyújtott téglatestek vagy hengerek is (ha bírja a GPU). A növények “növési iránya” logikus legyen, tehát ha például van törzse, akkor az legyen merőleges nagyjából az adott pontba, a bolygóhoz húzott érintő síkra! Textúrázzuk is fel az ágakat! (35%)
+
+Animáljuk a növényeket! Például az ágak növekedési szögeit, vastagságát, hosszát módosítsuk az idő függvényében! (10%)
+
+Generáljunk érdekesebb növényeket is (pl bogyók vannak a növényen, virága van, bármi ami érdekessé teszi azt), csinálhatunk hosszú mangrove gyökér szerű fonódó indákat, fákat is. Ezeket nem szükséges már animálnunk, ellenkező esetben természetesen nem jár pontlevonás :). (20%)
+
+Legyen egy nap objektumunk is, amely körül kering a bolygónk (amely immár forogjon a saját tengelye körül is!), a bolygónk körül pedig keringjen egy hold! Textúrázzuk fel őket! (8%)
+
+Az eddigi WASD + egér alapú kameramozgatás mellett legyen lehetőségünk a v billentyű megnyomásával fixen a bolygónkat követni! (A kamera csak a pozícióját követi egy adott távolságból, forgását nem) A v ismételt megnyomásával visszatér a billentyűzet + egér alapú kamerához. (6%)
+
+A nap pozíciójában valósítsunk meg egy pontszerű fényforrást is, mely  a többi bolygóra hat! A fényforrás színét lineáris átmenettel random színek között változtassuk! Amilyen színű épp a fényforrás, oylan színnel keverjük a nap textúráját (független legyen az ambiens megvilágítástól)! (8%)
+Keringjen még egy bolygó a nap körül, legyen ennek gyűrűje is (egy tóruszból transzformált)! (8%)
+Készítsünk csillagos eget (skybox) a jelenetünk köré! (10%)
+Legyen a bolygónk felszíne rücskös! (displacement mapping) (10%)
+
+Összesen: 135%
+ 
+
+
+
+
+
+Megoldott feladatok:
+ 
+
+Készítsünk (és jelenítsünk meg) egy viszonylag nagy gömböt (ez lesz a bolygó) (2%) és textúrázzuk is fel (3%). 
+ 
+
+ 
+Helyezzünk el kisebb-nagyobb (1 féle elég) sziklákat a bolygó felszínén. Orientációjuk, méretük a különböző tengelyek szerint legyen véletlenszerű (értelmes határok között), földbe mélyedésüknek mértéke legyen változatos. Alkalmazzunk szikla textúrát, amit keverünk szolid színekkel is (hogy még változatosabbak legyenek). (10%)
+ 
+
+Lehessen a WASD és az egér segítségével mozogni a színtérben! (5%)
+
+ 
+Legyen egy nap objektumunk is, amely körül kering a bolygónk (amely immár forogjon a saját tengelye körül is!), a bolygónk körül pedig keringjen egy hold! Textúrázzuk fel őket! (8%)
+ 
+
+ 
+Az eddigi WASD + egér alapú kameramozgatás mellett legyen lehetőségünk a v billentyű megnyomásával fixen a bolygónkat követni! (A kamera csak a pozícióját követi egy adott távolságból, forgását nem) A v ismételt megnyomásával visszatér a billentyűzet + egér alapú kamerához. (6%)
+ 
+
+ 
+A nap pozíciójában valósítsunk meg egy pontszerű fényforrást is, mely  a többi bolygóra hat! A fényforrás színét lineáris átmenettel random színek között változtassuk! Amilyen színű épp a fényforrás, oylan színnel keverjük a nap textúráját (független legyen az ambiens megvilágítástól)! (8%)
+ 
+
+ 
+Keringjen még egy bolygó a nap körül, legyen ennek gyűrűje is (egy tóruszból transzformált)! (8%)
