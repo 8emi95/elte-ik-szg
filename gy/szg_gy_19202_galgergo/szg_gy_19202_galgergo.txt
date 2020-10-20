@@ -1,0 +1,37 @@
+200214 GY01
+
+Gál István Gergő
+cg.elte.hu/~galgergo
+qa11v5@inf.elte.hu
+galgergo@caesar.elte.hu
+galistvangergo@gmail.com
++ FB
+2.704 nah
+
+12:00-
++/- mi lesz benne, mikor
+kata majd lesz, jövő hét után vmikor
+
+01_HelloSDL
+02_SDLEvents
+
+********************************************************************************
+
+200221 GY02
+
++/- kövin
+01_Shaders
+
+********************************************************************************
+
+200228 GY03
+
++/-: grafikus szerelőszalag
+
+02_ShadersVAOVBO
+
+********************************************************************************
+
+200306 GY04
+
+01_Transforms
