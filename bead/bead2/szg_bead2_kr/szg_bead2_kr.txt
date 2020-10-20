@@ -1,0 +1,16 @@
+========OpenSceneGraph rész========
+Készíts egy alkalmazást amiben létrehozol egy origó középpontú, Y tengelyű, 1 sugarú és 4 magas kúpot 
+
+ÉS egy Y tengelyű, 3 sugarú, 1.5 magas hengert. 
+
+Ebből állíts össze egy 5 egység testmagasságú fenyőfát, aminek fenyő része (kúp) 1 sugarú és 4 egység magas, a törzse (henger) alatta pedig 0.5 sugarú és 1 egység magas. A felfelé mutató irány a (0,1,0) legyen, azaz az Y tengely mutasson felfelé! Az elkészített geometriáknak tartalmaznia kell pozíció, textúra koordináta és felületi normális adatokat is! A normálisok lehetnek egyszerűen a geometriákat alkotó háromszögek síkjainak normálisai. (25%)
+
+Ezután készítsd el a következő színteret OSG-ben: egy 15 sugarú kör mentén helyezz el 11 példányt egymástól egyenlő távolságra úgy, hogy az első az eredeti méretének másfélszerese legyen, és minden további példány legyen 5%-kal kisebb!Exportáld külön obj fájlokba (a.obj, b.obj) az így elkészített két modellt úgy, hogy az y=0 síkon legyen az aljuk (tehát ne legyen ez alá lelógó részük)! (25%)
+
+
+========OpenGL rész========
+Most térj át OpenGL-be és töltsd be az előbb készített két modell fájlt felváltva a következő elrendezésben: az origó középpontú, 6 sugarú gömb 4 véletlen pontjában (25%)
+
+Azen kívül még valósítsd meg a következőt: az OGL színteret világítsa meg egy irányfényforrás, amelynek színe minden anyagmodellben legyen (35, 90, 241). A felhasználó a billentyűzet segítségével tudja mozgatni a fényforrást irányát a színtérben, mindhárom tengely mentén és az '1'-es gomb hatására kezdjen a fényforrás színe az eredetiből 8 másodperc alatt tiszta kékbe átmenni, majd vissza, periodikusan. A kamera legyen tetszőlegesen mozgatható a színtérben! (25%) 
+
+Ebből az első két részfeladatot valósítottam meg.
