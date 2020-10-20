@@ -1,0 +1,8 @@
+Lobogó zászló (2 pont)
+Készítsűnk egy lobogó zászlót! Legyen egy 10x10-es négyzetlap talajunk, ezen álljon egy vékony zászlórúd (henger: P(u,v,r,h) = [r*cos(2pi*u), r*sin(2pi*u), h*v ] ) és a zászlórúd tetején lobogjon egy tetszőleges textúrájú zászló. A zászlónak vegyünk fel egy négyzetlapból álló síkot, majd vertex shader-ben vízszintesen mozgassuk a pontokat úgy, hogy a felület az idő múlásával folyamatosan hullámozzon.
+
+Geometria körüli kameramozgás (2 pont)
+A fel, le, jobbra, balra nyilakkal a kamera "at" pozícióját mozgassuk az előző feladatban látott felületen (meglévő parametrikus felület hiányában egy parametrikus gömb felületén mozogjon az "at"). Az egérrel a kamera eye vektora forogjon az at vektor körül, úgy mint ahogy az órai projektben az at az eye körül (CAD/ geometria szerkesztőhöz hasonló kameramozgás).
+
+Tükröződő felület (2 pont)
+Készítsünk (kvázi-) tükröződő felületet! Először készítsünk skyboxot, majd a fragment shaderben vegyük ki a toEye normálisra tükrözött vektorának irányába eső skybox színt. (segítség: reflect GLSL parancs) Ezt a színt értelmes módon keverjük egy már meglévő fénymodellel.
