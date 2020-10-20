@@ -1,0 +1,16 @@
+========OpenSceneGraph rész========
+Készíts egy alkalmazást amiben létrehozol egy Y tengelyű, 2 sugarú, 3 magas kúpot ÉS egy origó középpontú, Y tengelyű, 5 sugarú és 1 vastagságú tóruszt (lásd: http://hu.wikipedia.org/wiki/T%C3%B3rusz). Ebből állíts össze egy 5 egység magasságú csúcsos kalapot, aminek törzse (kúp) 2 sugarú és 5 egység magas, a karimája (tórusz) pedig 2 sugarú, és a törzs lábánál helyezkedik el. A felfelé mutató irány a (0,1,0) legyen, azaz az Y tengely mutasson felfelé! Az elkészített geometriáknak tartalmaznia kell pozíció, textúra koordináta és felületi normális adatokat is! A normálisok lehetnek egyszerűen a geometriákat alkotó háromszögek síkjainak normálisai. A felfelé mutató irány a (0,1,0) legyen, azaz az Y tengely mutasson felfelé! Az elkészített geometriáknak tartalmaznia kell pozíció, textúra koordináta és felületi normális adatokat is! A normálisok lehetnek egyszerűen a geometriákat alkotó háromszögek síkjainak normálisai. (25%)
+
+Ezután készítsd el a következő színteret OSG-ben: az elkészített geometriádból legyen két példány a (10,10,10) és (-10,-10,-10) pontokban - egy eredetihez képest 140%-os méretű, illetve egy eredetihez képest 75%-os méretűt. Exportáld külön obj fájlokba (a.obj, b.obj) az így elkészített két modellt úgy, hogy az y=0 síkon legyen az aljuk (tehát ne legyen ez alá lelógó részük)! (25%)
+
+
+========OpenGL rész========
+Most térj át OpenGL-be és töltsd be az előbb készített két modell fájlt felváltva a következő elrendezésben: egy XZ síkon fekvő tetszőleges élhosszúságú piramis 4 tetszőleges csúcspontjában (25%)
+
+Azen kívül még valósítsd meg a következőt: az OGL színteret világítsa meg egy pontszerű fényforrás, a felhasználó által tetszőlegesen módosítható pozícióból, tiszta fehér színnel. Ha a felhasználó '2'-es billentyűt megnyomja, akkor a színtérben található összes textúrázott objektum textúrája mosódjon át egy képből egy másikba (pl. mosolygós arcból szomorú arcba), majd vissza, 6 másodperces periódussal. A kamera legyen tetszőlegesen mozgatható a színtérben! (25%)
+ 
+
+
+Megoldott feladatok:
+1. és a 4. feladatnál van benne hiba,
+a 2. és 3. remélhetőleg jó.
