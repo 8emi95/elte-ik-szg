@@ -1,0 +1,6 @@
+Készíts egy alkalmazást amiben létrehozol egy 5 egységkockából felépített Tetris X formát ( http://cg.elte.hu/~bsc_cg/gyak/kisbead1/image001.jpg ).
+A létrehozott geometria minden háromszögének legyen különböző színe! (25%)
+A fent elkészített geometriát rajzold ki a következő formációban: egy YZ síkbeli origó középpontú, 5 egység sugarú körív mentén egyenletesen elhelyezett 6 pontban (25%)
+Az így kirajzolt formációt mozgasd a következő pályán: egy XY síkban fekvő, origó középpontú, 10 sugarú körpálya mentén úgy, hogy egy kört a teljes formáció 11 másodperc alatt tesz meg (25%)
+A felhasználó a következőképpen állíthassa a színtérbeli történéseket: az 1, 2, 3 számbillentyűk hatásával a kirajzolt alakzatok színét módosítsd rendre a tiszta piros, zöld, kék színekkel, a saját színükből periodikusan átmosódva az előbbiekbe, majd vissza (tehát ha sárga volt, akkor 1-es billentyű esetén sárgából pirosba, majd vissza sárgába), 5 másodperces periódussal. A kamerát a 
+színtérbe úgy helyezd le, hogy látható legyen minden! (25%)
