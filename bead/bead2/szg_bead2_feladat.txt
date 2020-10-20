@@ -1,0 +1,47 @@
+Üdvözlünk, T6ESML!
+
+
+========Második kisbeadandó feladat========
+
+Készítsünk egy hullámzó felületet (vizet)! Vegyünk fel egy négyzetekből álló (vízszintes) síkot, majd vertex shader-ben függőlegesen mozgassuk a pontokat úgy, hogy a felület hullámozzon. A hullámzáshoz legalább három, különböző periódusidejű függvényt használjunk (pl.: sin, cos). (2 pont)
+
+Pontfényforrás világítsa meg a színteret. Ahol alacsony a magasság értéke (az előző részfeladatban), legyen kékesebb a felület színe. (2 pont)
+
+Az előző feladatokban elkészített (valamelyik) geometriát rajzoljuk ki a tér 10 véletlen pontjában egymástól viszonylag távol (paramétereket a megoldóra bízzuk). Implementáljuk a következő kirajzolási optimalizációt. Ha egyik objektum a kamera mögött van, akkor ne hívjuk meg rá a kirajzolási parancsot (hiszen úgyis vágásra kerül!). Egy objektum a kamera mögött van, ha (pl) a forward = at - eye vektor és a toObject = objCenter - eye vektor negatív szöget zár be. (Bezárt szög negatív ⇔ skalár szorzat negatív) Mérjük le optimalizációval és anélkül hogy 100 frame mennyi idő alatt jelenik meg! Nézzük meg 1000 db véletlen pozíciójú geometriára is! (2 pont)
+
+Segítség a feladatokhoz:
+Komponensek:
+Virtuális világ generálása (vertex shaderrel)
+Virtuális világ tapétázása (fragment shaderrel - fényforrásos/textúrás dolgok) vagy fizika
+A generálás/világ irányítása UI-ról (imgui - interakciós rész) vagy kamerapályán bejárás
+Ha szerepel a feladatban parametrikus leírás domborzattal, akkor a következő jelölésrendszert alkalmazzuk.
+u,v → P(u, v, 0) : R2 → R3 parametrikus felületek az órán is tanultak, pl négyzet, gömb, henger, tórusz
+u,v eleme a [0,1] intervallumnak
+r, R, h, w konstansok a param. felület adatai, amit a UI ból lehet majd állítani (ha azt írja a feladat).
+m : R2 → R a magasságtérkép. (Teljes tartományon értelmezve van!)
+A vertex shader az u,v → P(u,v,m(u,v)) parametrikus felületet kell megjelenítse.
+Ha a geometria felbontása állítható kell legyen, akkor megszabható erre egy - kellően nagy - felső korlát
+További fontos megjegyzések:
+A normálisokat a vertex shadernek kell kiszámolnia. Ezek lehetnek egyszerűen a szomszédos vertexekbe mutató vektorok vektoriális szorzatai (cross)
+Textúrák, egyéb bemenetek értelemszerűen választhatók (pl skybox a földhöz legyen csillagos, galaxisos)
+Működő kamera feltétel, lehessen választani a normál (OGLBase-es), és az esetlegesen feladat által kért kamera között
+Random generáltak a feladatok, bátran kérdezzetek facebookon [https://www.facebook.com/groups/554579498060715/], ha valami nem egyértelmű!
+Az elkészített beadandókat nem elég elküldeni, a később kiírásra kerülő alkalmak egyikén be is kell mutatni! Azok a kisbeadandók érvénytelenek, amelyeket nem mutatják be (-10 pont). 
+
+Fontos tudnivalók: a feladatokat csak a gyakorlatokon látott keretrendszerben, a gyakorlaton látott módszerekkel lehet megvalósítani. Az elkészített geometriákat csak úgy fogadjuk el, ha bekapcsolt hátlapeldobás mellett helyesen jelennek meg! A kamerát úgy kell elhelyezni, hogy a színtér egésze látható legyen! (Elég kikísérletezni, hogy ez milyen pozíciókat jelent.) 
+
+Azok a kisbeadandó feladatok, amik nem értékelhetők, automatikusan beküldetlennek minősülnek, azaz -10 pontot adunk rájuk. Ugyanez vonatkozik a másolással készült beadandókra. 
+
+Az így kapott pontok egy az egyben beleszámítanak az évvégi géptermi zárthelyi pontszámába. 
+
+Pontszámot csak személyes bemutatás után adunk! Ennek időpontjáról később lesz tájékoztató. A be nem mutatott kisbeadandók szintén -10 pontot érnek. 
+
+A feladatok beküldési határideje 2017. május 20., vasárnap, 23:59. A beadandókat a BEAD rendszerben [https://bead.inf.elte.hu] kell leadni 
+
+A beküldésben csak a szükséges forrásfájlok szerepelhetnek! A Build menü Clean project/solution utáni állapotból még törölni kell a solution mappájában található futtathatókat tartalmazó almappákat (Debug és Release), valamint az *.sdf fájlt. Az tárgy honlapján ITT [http://cgbackup.inf.elte.hu/~bsc_cg/resources/util/delete_script.bat] található egy .bat file, ami az összes átmeneti fájlt és mappát törlni a futtatásának helyén, illetve az abban található könyvtárakban. Pontlevonás jár azért, ha valaki ezt nem tartja be. 
+
+A felmerülő kérdéseket a gyakorlatvezetőknek vagy a tárgy Facebook csoportján kollektíva szintjén is fel lehet tenni. 
+
+Késést nem fogadunk el, ekkor is -10 pontosnak minősül a kisbeadandó. 
+
+

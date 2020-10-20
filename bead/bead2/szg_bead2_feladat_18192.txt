@@ -1,0 +1,19 @@
+1. részfeladat (2 pont)
+
+A következő feladat során egy egyszerűbb létrehozott geometriát kell a vertex shader segítségével a leírt módon transzformálni. Olyan megoldásokat, ahol a geometria nem vertex shaderben áll össze, például csupán az MVP transzformáció van a vertex shaderben, nem fogadunk el. Amennyiben a feladatban parametrikus leírás szerepel, ezt a P(u,v,d) ∈ ℝ függvény adja meg, ahol d a felülettől vett magasságértéket jelenti. A parametrikus felületet alakját és normálvektorait a vertex shadernek kell számolnia. A geometriának bekapcsolt hátlapeldobás mellett is helyesen kell megjelennie.
+
+Készítsünk egy hullámzó felületet (vizet)! Vegyünk fel egy négyzetekből álló (vízszintes) síkot, majd vertex shader-ben függőlegesen mozgassuk a pontokat úgy, hogy a felület hullámozzon. A hullámzáshoz legalább három, különböző periódusidejű függvényt használjunk (pl.: sin, cos).
+
+
+2. részfeladat (2 pont)
+
+A következő részfeladat vagy fizikai szimuláció (melynek számolása CPU-n megengedett), vagy tapétázás, színezési feladat amit a fragment shaderrel kell megoldani. Ha textúra nincs megadva, akkor ezt a hallgató fantáziájára bízzuk.
+
+A színtérnek megfelelő szabadon választott textúrát lehet alkalmazni, akár a netről is le lehet szedni, de legalább két különböző fájlból olvassuk be, és értelemszerűen külön textúraként használjuk! Legyen áttűnés a két textúra között, azaz 2 mp alatt menjen át egyik textúrából a másikba, majd ugyanannyi idő alatt vissza.
+
+
+3. részfeladat (2 pont)
+
+Az utolsó részfeladat a UI, interakciós feladatrész, esetleg kamerapályás bejárás. A feladat szövege az alábbi.
+
+Egy kameramodell megvalósítása, melynek irányítani lehet a “yaw, pitch, roll” tulajdonságait. Az egér jobbra-balra, illetve fel-le mozgatásával lehessen állítani a “yaw” és “pitch” értékeket, illetve a “Q” és “E” gombokkal lehessen a “roll”-t szabályozni. A “WASD” billentyűkkel mozgatni is lehessen a kamerát. A kamera 3D térbeli pozícióját, illetve a “yaw, pitch, roll” értékeket folyamatosan írassuk ki GUI-n.
