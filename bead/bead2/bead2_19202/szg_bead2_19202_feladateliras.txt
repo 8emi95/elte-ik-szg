@@ -1,0 +1,13 @@
+Víz készítése (2 pont)
+
+Készítsünk egy hullámzó felületet (vizet)! Vegyünk fel egy négyzetekből álló (vízszintes) síkot, majd vertex shader-ben függőlegesen mozgassuk a pontokat úgy, hogy a felület hullámozzon. A hullámzáshoz legalább három, különböző periódusidejű függvényt használjunk (pl.: sin, cos). A hullámzás sebessége állítható legyen az egérgörgő használatával. (uniform változó a vertex shaderben)
+
+
+Informatív UI (2 pont)
+
+Készíts egy informatív UI-t! Imguival valósíts meg egy informatív táblázatot, ami kilistázza a jelenleg használt textúrákat, mellettük, hogy milyen modelre vannak épp rárakva. Ha van használható billentyű, azt is írja ki funkcióval együtt. Ha van időhöz kötött változás, írjuk ki épp hol tart. Ha vannak újonann létrehozott alakzatok, dinamikusan legyenek kiiratva, ha több van, legyen darabszám is. Ez csak példa, ahogy szerinted jól néz ki, úgy igazítsd Textúrák: kép.jpg - Suzanne.obj earth.png - földgömb Billentyűk: 'i' - invertálás Víz mozgás: 123 sec - 1.3 PI vagy 30° Esőcseppek - jelenleg 130 darab
+
+
+Űrhajó kamera (2 pont)
+
+Képzeljük el a kamerát egy űrhajónak. WASD-vel gyorsítani lehet a kameramozgást a megfelelő irányba, minnél többet nyomjuk, annál jobban felgyorsul, a gomb elengedésekor nem áll meg, hanem abban az irányban halad tovább. Ehhez tároljuk el a kamera sebességvektorát, és ezen változtassunk az interakciónál. A pozíciót az Update()-ben frissítjük eme sebességvektor szerint. Legyen némi közegellenállás, ami lassítja a kamerát, másodpercenként 5%-al csökkenjen a sebessége. Fékezni is tudjunk a SPACE lenyomásával, ekkor másodpercenként 35%-kal csökkenjen a sebessége a kamerának.
